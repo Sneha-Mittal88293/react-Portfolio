@@ -20,7 +20,7 @@ const sendEmail = (e) => {
 
     emailjs
     .sendForm(
-        'gmail',
+        'service_x597ruq',
         'template_9vabyc6',
         refForm.current,
         'ScZD-gM0nfP2amhNg'
