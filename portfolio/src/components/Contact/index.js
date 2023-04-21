@@ -10,7 +10,7 @@ const Contact = () =>{
     const refForm = useRef()
 
 useEffect(() =>{
-    return setTimeout(() =>{
+    setTimeout(() =>{
         setLetterClass('text-animate-hover')
     },3000)
 },[])
@@ -21,9 +21,9 @@ const sendEmail = (e) => {
     emailjs
     .sendForm(
         'gmail',
-        'template_svtcxn1',
+        'template_9vabyc6',
         refForm.current,
-        '0IHmEyPs_EP6ffOwpz2DG'
+        'ScZD-gM0nfP2amhNg'
     )
     .then(
         () => {
@@ -82,7 +82,7 @@ const sendEmail = (e) => {
                 India,
                 <br/>
                 Dholpur,Rajasthan <br/>
-                <span>snehamittal88293@gmail.com</span>
+                <span>snehamittal1305@gmail.com</span>
 
             </div>
             <div className='map-wrap'>
